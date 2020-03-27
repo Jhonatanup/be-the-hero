@@ -28,12 +28,12 @@ export default function Profile(){
 
     async function handleDeleteIncident(id){
         try{
-            await api.delete(`incidents/${id}`, {
+            api.delete(`incidents/${id}`, {
                 headers: {
                     Authorization: ongId
                 }
             })
-            setIncidents(incidents.fiter(incident => incident.id !== id));
+            setIncidents(incidents.filter(incident => incident.id !== id))
         }catch(err){
             console.log('Erro')
         }
