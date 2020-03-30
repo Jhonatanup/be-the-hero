@@ -69,10 +69,10 @@ From your command line:
 ### Install API
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/SemanaOmnistack11
+$ git clone https://github.com/jhonatanup/be-the-hero
 
 # Go into the repository
-$ cd SemanaOmnistack11/backend
+$ cd be-the-hero/backend
 
 # Install dependencies
 $ yarn install
@@ -102,7 +102,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for details
 
 ---
 
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Jhonatan Leandro :wave: [Get in touch!](https://www.linkedin.com/in/jhonatancorrealeandro/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
